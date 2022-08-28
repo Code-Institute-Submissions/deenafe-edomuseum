@@ -112,3 +112,28 @@ a {
 .museum-layout-container figcaption {
     color: #E3AF66;
 }
+
+/* Social media links */
+
+footer {
+    height: 100px;
+}
+
+.social-media {
+    text-align: center;
+}
+
+.social-media li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 150%;
+    color: #4F7942;
+    margin: 10px;
+    padding: 30px;
+}
+
+.social-media a:hover {
+    opacity: 0.5;
+}
