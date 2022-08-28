@@ -66,3 +66,25 @@ a {
     border: 1px solid green;
     margin-top: 15px;
 }
+
+/* Musuem info */
+
+#info-title {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 30px 0 10px;
+    font-weight: 600;
+}
+
+#flex-info-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.flex-info {
+    border: 1px dotted green;
+    flex-basis: 40%;
+    margin-bottom: 15px;
+    padding: 10px;
+}
