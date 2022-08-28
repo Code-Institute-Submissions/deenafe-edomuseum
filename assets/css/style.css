@@ -165,3 +165,89 @@ footer {
        opacity: .5;
        transition: 0.5s;
 }
+
+/* Booking form */
+
+.booking-container {
+    box-shadow: rgba(0, 0, 0, .1);
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+
+.time-container {
+    background-color: black;
+    padding: 50px;
+    outline: 2px dashed #E3AF66;
+    outline-offset: -20px;
+    text-align: center;
+    margin-right: 100px;
+}
+
+
+.booking-header {
+    text-transform: uppercase;
+    color: green;
+    margin-bottom: 10px;
+
+}
+
+.days-heading {
+    color: #E3AF66;
+    margin-top: 20px;
+}
+
+
+.time-container p,
+.phone-heading {
+    color: green;
+}
+
+.time-container hr {
+    border: 1px solid #E3AF66;
+    margin-top: 150px;
+}
+
+.phone-heading {
+    font-style: italic;
+}
+
+form {
+    display: grid;
+    grid-row: 20px;
+}
+
+.form-container {
+    padding: 20px 0;
+    margin: 0 auto;
+
+}
+
+.form-input {
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px;
+}
+
+input,
+select {
+    padding: 10px, 15px
+}
+
+label {
+    font-weight: 600;
+}
+
+.book-button {
+    color: green;
+    cursor: pointer;
+    margin-top: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 10%;
+    width: 30%;
+}
+
+.book-button:hover {
+    transform: scale(1.03);
+}
