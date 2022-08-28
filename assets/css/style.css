@@ -137,3 +137,31 @@ footer {
 .social-media a:hover {
     opacity: 0.5;
 }
+
+/* Collection gallery */
+
+.collection-header {
+    text-align: center;
+    padding: 32px;
+}
+
+.collection-gallery {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.collection-gallery img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    padding: 5px;  
+}
+
+.gallery img:hover {
+       cursor: pointer;
+       opacity: .5;
+       transition: 0.5s;
+}
