@@ -1,1 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Quicksand, sans-serif;
+    background-color: #E3AF66;
+}
+
+
+/* logo and nav links */
+
+.flex-nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    position: absolute;
+    right: 45%;
+}
+
+.nav-logo h1 {
+    color: green;
+    font-family: Pacifico, sans-serif;
+    font-size: 200%;
+}
+
+.nav-left {
+    font-size: 120%;
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-left,
+.nav-list-items {
+    display: inline-block;
+    margin: 20px 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-left a:hover {
+    color: green;
+}
