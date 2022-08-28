@@ -15,14 +15,61 @@ body {
 
 /* logo and nav links */
 
-.flex-nav-links {
+/* .flex-nav-links {
     display: flex;
     align-items: center;
+} */
+
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5px;
 }
 
+.nav-left {
+    display: flex;
+    font-size: 120%;
+    list-style-type: none;
+}
+
+.nav-left li {
+    margin-left: 10px;
+}
+
+.nav-left a:hover {
+    color: #4F7942;
+} 
+
+.nav-header h2 {
+    color: #4F7942;
+    font-family: Pacifico, sans-serif;
+    font-size: 250%;
+}
+
+.nav-header input {
+    color: #fff;
+    background-color: #4F7942;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.nav-header input:hover {
+    opacity: 0.5;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 
 .nav-logo {
-    position: absolute;
-    right: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .nav-logo h1 {
@@ -34,23 +81,18 @@ body {
 .nav-left {
     font-size: 120%;
     list-style-type: none;
-    display: flex;
 }
 
 .nav-left,
 .nav-list-items {
-    display: inline-block;
-    margin: 20px 10px;
-}
+    /* display: inline-block; */
+    /* margin: 20px 10px;
+    display: flex;
+} */
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
 
-.nav-left a:hover {
-    color: green;
-}
+
+
 
 /* Main image */
 
