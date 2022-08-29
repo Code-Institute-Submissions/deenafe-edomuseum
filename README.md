@@ -6,100 +6,139 @@
 3. [Testing](#Testing)
 4. [Depolyment](#Depolyment)
 5. [Credits](#Credits)
+***
 
 
-
+## General Information
 
 **EMOWAA** is an illustrative website about a museum that houses a collection of artefacts and imagery (primarily Bronze and copper carvings from the ancient Benin Kingdom). Although, the museum only exists presently as an idea/proposal, this website aims to provide insight on a probable collection of artefacts to be housed in the hypotehtical museum.
 
 The website also aims to serve as a guide to the structural layout of the museum and provide a platform which guests can have a sneak preview of the collection of artefacts on display and schedule a tour of the museum. View the live site [here](https://deenafe.github.io/artgallery/)
 
+### **Screenshots**
+
 ![](docs/screen-imac.png)   ![](docs/screen-macbook-air.png)     
 ![](docs/screen-ipad-air.png)  ![](docs/screen-iphonex.png)
 
 
-## Features
+### **Features**
 
-### Navigation  
+### *Navigation*  
 
- **.**The navigation menu is consistent in all 3 pages of the website and links to the Home, Collection, Bookings page and the Logo which directs to the Home page.
- This will allow users to easily navigate across the pages without having to use the "back" button
+* The navigation menu is consistent in all 3 pages of the website and links to the Home, Collection, Bookings page and the Logo which directs to the Home page.
+* This will allow users to easily navigate across the pages without having to use the "back" button
 
 ### Landing Page 
 
-####  The Landing page image  
-    The landing page include a picture of one the most valuable bronze artefacts in the history of Benin Kingdom
+ #### *The Landing page image*  
+ *   The landing page include a picture of one the most valuable bronze artefacts in the history of Benin Kingdom
     The provides a visual clue to the user that the museum has noteworthy artefacts on display
 
-  ####  Museum Information  
-     This section aims to provide users with information on the location of the museum and importance of the artworks on display
-    It also provides a bit of background information on the source of artefacts on display
+  ####  *Museum Information*  
+  *   This section aims to provide users with information on the location of the museum and importance of the artworks on display
+ *   It also provides a bit of background information on the source of artefacts on display
 
-  ####  Museum Layout  
-     This aims to provide a visual illustration of various sections of the museum
-     It is meant to help users get a hint of layout of the museum prior to booking a visit.
+  ####  *Museum Layout*  
+  *   This aims to provide a visual illustration of various sections of the museum
+  *   It is meant to help users get a hint of layout of the museum prior to booking a visit.
 
-  ####  Footer
-     This contains links to four social media platforms that will be displayed as icons. All the links will open in new tabs, so users don't have to leave the website to access the social nedia websites.
-     The footer is important to enable users connect via social media to get latest information about the museum and new artefacts on display.
+  ####  *Footer*
+  *   This contains links to four social media platforms that will be displayed as icons. All the links will open in new tabs, so users don't have to leave the website to access the social nedia websites.
+  *    The footer is important to enable users connect via social media to get latest information about the museum and new artefacts on display.
 
 
 ### Gallery Page  
 
-    The gallery contains images of some of the important imagrey and artefacts on display.
-    This is meant to provide a sneak preview to the user of the artworks on display.
+   #### *Gallery*
+
+  *  The gallery contains images of some of the important imagrey and artefacts on display.
+  *  It's intended to provide a sneak preview of what is on display at the museum.
 
 
 ### Booking Page  
-    This page provide information on the open days and open times to the user as well a phone contact number.
-    Users who intend to book a tour of the museum will be required to input their Names, Email Address, Intended date and time of visit, and number of persons coming on the visit.
+
+ #### *Open Times and Reservations*
+
+ *   This page provide information on the open days and open times to the user as well a phone contact number.
+ *   It provides users with a platform to book a tour of the museum and users are be required to input their Names, Email Address, Intended date and time of visit, and number of persons coming on the visit.
+
+ ### Contact Page  
+
+ #### *Contact Form*
+
+ *   A contact form which allows users to input their names, email address and message.
+ *   It enables users to contact the museum if they have any enquiries outside the scope of information provided on the website.
+
+
 
 
 ### Existing Features  
 
-Responsive design
-Information on museum 
-Responsive gallery
-Captions for gallery pictures
-Hidden interactive sections on adventure page  ****
-Information on 
+* Information on museum 
+* Responsive gallery
+* Responsive design
+* Captions for gallery pictures
+* Reservation page
+* Contact form
+
 
 ### Features Left to Implement  
 
-An interactve map to help users get the precise location of the museum
+* An interactve map to help users get the precise location of the museum
 
-A slide show of the main image on the landing page to consist of at least 5 diffrent images of related artefacts.
+* A slide show of the main image on the landing page to consist of at least 5 diffrent images of related artefacts.
 
-A success page for the submission of details on the booking form.
+* A modal to be added to the collection page, so when clicked, each image can be displayed on top of the gallery with a caption.
 
-
-## Technologies   
-
-  HTML
-   The structure of the web pages was done using html. 
-
-   CSS
-    The decorative features of the web pages was done using CSS in an external file.
-
-   Font Awesome
-    The social media icons was sourced from https://fontawesome.com/ 
-
-   Gitpod Workpspace
-    Used to commit and push code during the development of the Website.
-
-   GitHub
-    Code is hosted and deployed on GitHub.
+***
 
 
+## Technologies  
+*** 
+
+  **HTML**
+   * The structure of the web pages was done using html. 
+
+   **CSS**
+   * The decorative features of the web pages was done using CSS in an external file.
+
+   **Font Awesome**
+   * The social media icons was sourced from https://fontawesome.com/ 
+
+   **Gitpod Workpspace**
+  *  Used to commit and push code during the development of the Website.
+
+  **GitHub**
+  *  Code is hosted and deployed on GitHub.
+
+***
 ## Testing   
 
+***
+
    ### Responsiveness   
-     All the pages were tested for responsiveness on various device screens.
+     All the pages were tested for responsiveness on various device screens ranging from 280px and above
     
     The website is responsive on the following devices:
 
   ###  Accessibility  
-     ***Refer to tacos***
+     To ensure that the website meets the WCAG Web Accessibilty Standards, [Wave](https://wave.webaim.org/) was used to the results of the accessibility testing showed that the following were met:
+
+     * There were no color contrast errors in all the pages.
+     * The heading elements are properly structured to facilitate page navigation for users of assistive technologies.
+     * All form labels are present and associated with a form control.
+     * The HTML lang arrtibute is present to allow screen readers to read the content appropriately.
+     * Images and external links have associated alternative text and aria-labels to be read by screen readers.
+
+     The objective of performing the accessibility testing was to ensure the website is:
+
+     * Perceivable
+     * Operable
+     *Understandable
+     *Robust
+
+     However, due to time constraints, I was unable to conduct the manual testing for accessibility using a screen reader. 
+
 
 
 ## Validator Testing   
