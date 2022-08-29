@@ -9,7 +9,7 @@
 
 body {
     font-family: Quicksand, sans-serif;
-    background-color: #E3AF66;
+    background-color: #F2D4B1;
 }
 
 
@@ -42,14 +42,14 @@ body {
     color: #4F7942;
 }
 
-.nav-header h2 {
-    color: #4F7942;
+.nav-header h1 {
+    color: #2B4729;
     font-family: Pacifico, sans-serif;
     font-size: 250%;
     padding-right: 100px;
 }
 
-.nav-header input {
+.nav-header .contact-header {
     color: #fff;
     background-color: #4F7942;
     border-radius: 50px;
@@ -58,7 +58,7 @@ body {
     padding: 10px 20px;
 }
 
-.nav-header input:hover {
+.nav-header .contact-header:hover {
     opacity: 0.5;
 }
 
@@ -71,7 +71,7 @@ a {
 /* Main image */
 
 #caption-text {
-    color: beige;
+    color: #414111;
     text-align: center;
     padding: 10px;
     font-size: 15px;
@@ -79,7 +79,7 @@ a {
 }
 
 #caption-text hr {
-    border: 1px solid green;
+    border: 1px solid #2B4729;
     margin-top: 15px;
 }
 
@@ -108,7 +108,7 @@ a {
 /* Musuem layout */
 
 #layout-background {
-    background-color: #4F7942;
+    background-color: #2B4729;
 }
 
 .museum-layout-container img {
@@ -126,7 +126,7 @@ a {
 }
 
 .museum-layout-container figcaption {
-    color: #E3AF66;
+    color: #F2D4B1;
 }
 
 /* Social media links */
@@ -191,9 +191,9 @@ footer {
 }
 
 .time-container {
-    background-color: black;
+    background-color: #DEDEDE;
     padding: 50px;
-    outline: 2px dashed #E3AF66;
+    outline: 2px dashed #F2D4B1;
     outline-offset: -20px;
     text-align: center;
     margin-right: 100px;
@@ -202,24 +202,24 @@ footer {
 
 .booking-header {
     text-transform: uppercase;
-    color: #4F7942;
+    color: #2B4729;
     margin-bottom: 10px;
 
 }
 
 .days-heading {
-    color: #E3AF66;
+    color: #2B4729;
     margin-top: 20px;
 }
 
 
 .time-container p,
 .phone-heading {
-    color: #4F7942;
+    color: #2B4729;
 }
 
 .time-container hr {
-    border: 1px solid #E3AF66;
+    border: 1px solid #F2D4B1;
     margin-top: 150px;
 }
 
@@ -254,7 +254,7 @@ label {
 }
 
 .book-button {
-    color: #4F7942;
+    color: #2B4729;
     cursor: pointer;
     margin-top: 20px;
     border: 1px solid rgba(0, 0, 0, 0.5);
@@ -338,7 +338,7 @@ form label {
 
 /* Media queries */
 
-@media only screen and (max-width: 770px) {
+@media only screen and (max-width: 800px) {
     .nav-header {
         flex-direction: column;
         justify-content: center;
@@ -349,6 +349,9 @@ form label {
         padding: 0;
     }
 
+    .contact-header {
+        margin-bottom: 20px;
+    }
 }
 
 @media only screen and (max-width: 650px) {
