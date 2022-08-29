@@ -353,6 +353,11 @@ form label {
         padding: 0;
     }
 
+    .nav-left li {
+        margin-left: 0;
+        padding: 10px;
+    }
+
     .contact-header {
         margin-bottom: 20px;
     }
