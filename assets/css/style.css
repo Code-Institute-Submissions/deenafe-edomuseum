@@ -233,7 +233,7 @@ footer {
 
 form {
     display: grid;
-    grid-row: 20px;
+    grid-template-rows: 50px;
 }
 
 .form-container {
@@ -248,10 +248,10 @@ form {
     margin: 5px 0 20px;
 }
 
-input,
+/* input,
 select {
-    padding: 10px, 15px
-}
+    padding: 10px, 15px;
+} */
 
 label {
     font-weight: 600;
