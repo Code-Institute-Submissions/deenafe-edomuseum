@@ -13,14 +13,6 @@ body {
     overflow-x: hidden;
 }
 
-
-/* logo and nav links */
-
-/* .flex-nav-links {
-    display: flex;
-    align-items: center;
-} */
-
 .nav-header {
     display: flex;
     justify-content: space-between;
@@ -209,7 +201,6 @@ footer {
     text-transform: uppercase;
     color: #2B4729;
     margin-bottom: 10px;
-
 }
 
 .days-heading {
@@ -240,7 +231,6 @@ form {
 .form-container {
     padding: 20px 0;
     margin: 0 auto;
-
 }
 
 .form-input {
@@ -249,10 +239,6 @@ form {
     margin: 5px 0 20px;
 }
 
-/* input,
-select {
-    padding: 10px, 15px;
-} */
 
 label {
     font-weight: 600;
@@ -275,7 +261,6 @@ label {
 /* Contact form */
 
 .contact-section form {
-    
     width: 60%;
     margin: 50px auto;
     padding: 55px 30px;
@@ -393,16 +378,3 @@ form label {
         margin: 0 auto
     }
 }
-
-
-/* @media only screen and (max-width: 400px) {
-    .flex-info {
-        flex-basis: 80%
-    }
-
-    .museum-layout-container img {
-        width: 100%;
-        height: auto;
-        margin: 0
-    }
-} */
