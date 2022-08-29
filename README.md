@@ -25,7 +25,7 @@ The website also aims to serve as a guide to the structural layout of the museum
 
 ### *Navigation*  
 
-* The navigation menu is consistent in all 3 pages of the website and links to the Home, Collection, Bookings page and the Logo which directs to the Home page.
+* The navigation menu is consistent in all 3 pages of the website and links to the Home, Collection, Bookings pages and the Logo which navigates to the Home page.
 * This will allow users to easily navigate across the pages without having to use the "back" button
 
 ![](docs/nav-capture.png)
@@ -34,9 +34,11 @@ The website also aims to serve as a guide to the structural layout of the museum
 
  #### *The Landing page image*  
  *   The landing page include a picture of one the most valuable bronze artefacts in the history of Benin Kingdom
-    The provides a visual clue to the user that the museum has noteworthy artefacts on display
+  *  The provides a visual clue to the user that the museum has noteworthy artefacts on display
 
-    ![](docs/capture-landing-image.png)
+  ![](docs/capture-landing-image.png)
+
+   
 
   ####  *Museum Information*  
   *   This section aims to provide users with information on the location of the museum and importance of the artworks on display
@@ -46,13 +48,15 @@ The website also aims to serve as a guide to the structural layout of the museum
 
   ####  *Museum Layout*  
   *   This aims to provide a visual illustration of various sections of the museum
-  *   It is meant to help users get a hint of layout of the museum prior to booking a visit.
+  *   It is meant to help users get a hint of layout of the museum prior to booking a visit
 
   ![](docs/capture-museum-layout.png)
 
   ####  *Footer*
   *   This contains links to four social media platforms that will be displayed as icons. All the links will open in new tabs, so users don't have to leave the website to access the social nedia websites.
   *    The footer is important to enable users connect via social media to get latest information about the museum and new artefacts on display.
+
+  ![](docs/capture-footer.png)
 
 
 ### Gallery Page  
@@ -127,28 +131,306 @@ The website also aims to serve as a guide to the structural layout of the museum
 
 ***
 
-   ### Responsiveness   
-     All the pages were tested for responsiveness on various device screens ranging from 280px and above
+   ### Responsiveness
+All the pages were tested for responsiveness on various device screens ranging from 280px.
+
+The design features was consistent when tested on Chrome, Mozilla Firefox, Opera and Edge browsers.
+
+All pages of the website were responsive when tested on the following devices using Chrome Developer tools.:
+
+1. iPhone Se
+2. iPhone 12
+3. Samsung Gakaxy 8+
+4. iPad Air
+5. iPad Mini
+6. Galaxy Fold
+7. Samsung Galaxy A51
+
+The responsive design features was also consistent when the website was manually opened on the following IOS and Andriod devices:
+
+1. iPhone X 
+2. Samsung Galaxy A21s
+3. Huawei Honor 8
+
+ ### Functional Testing
+   
+**Navigation Links**
+
+   The navigation links on all pages was tested to ensure functionality by navigating to the correct page when clicked. 
+
+   * The navigation link to the Home page is *index.html*
+   * The navigation link to the Collection page is *collection.html*
+   * The navigation link to the Bookings Page is *bookings.html*
+   * The navigation link to the Contact Form page is *contact.html*
+
+    The Logo has an anchor with *index.html* as the *href* attribute so clicking the Logo from any page of the website will navigate to the Home Page. The navigation links (excluding the Logo) have a hover color which was present which was functional when tested.
+
+
+ ### Form Testing
+
+     There are 2 forms on the website and both forms can be accessed from the navigation links on any all pages of the website. The forms present on the website are:
+
+* Online Reservation Form
+
+      The following test scenarios were performed for the Online Reservation Form
+
+      *Scenario One - Correct Inputs*
+
+      Steps to test:
+
+1. From the Home page navigate to the Booking page.
+2. Input the following data into the form below the heading "Make Online Reservation"
+      * Name: Bless
+      * Email Address: shdhd@outlook.com
+      * Date: 2022-08-25
+      * Time: 23:39
+      * Number of Persons: 3
+3. Click "Book Now"      
+4. Users should be directed to [Code Institute Form Dump](https://formdump.codeinstitute.net/) with a congratulatory message indicating the form was correctly submitted.
+
+Expected Result:
+    *Form submits with no errors and redirects to https://formdump.codeinstitute.net/*
+
+Outcome:
+    *Website behaved as expected with no errors or warnings and redirected to https://formdump.codeinstitute.net/*    
+
+![](docs/correct-entry.png)
+
+
+*Scenario Two - Missing Name*
+
+      Steps to test:
+
+1. From the Home page navigate to the Booking page.
+2. Input the following data into the form below the heading "Make Online Reservation"
+      * Name: 
+      * Email Address: shdhd@outlook.com
+      * Date: 2022-08-25
+      * Time: 23:39
+      * Number of Persons: 3
+3. Click "Book Now"      
+
+Expected Result:
+    *The form does not submits and displays and error requesting the user to fill out the "Name" field*
+
+Outcome:
+    *Website behaved as expected, error message was displayed and the form did not submit.* 
+
+![](docs/missing-name.png)
+
+*Scenario Three - Missing Email*
+
+      Steps to test:
+
+1. From the Home page navigate to the Booking page.
+2. Input the following data into the form below the heading "Make Online Reservation"
+      * Name: Bless
+      * Email Address: 
+      * Date: 2022-08-25
+      * Time: 23:39
+      * Number of Persons: 3
+3. Click "Book Now"      
+
+Expected Result:
+    *The form does not submits and displays and error requesting the user to fill out the "Email" field*
+
+Outcome:
+    *Website behaved as expected, error message was displayed and the form did not submit.* 
+
+![](docs/missing-email.png)
+
+*Scenario Four - Incorrect Email Input*
+
+      Steps to test:
+
+1. From the Home page navigate to the Booking page.
+2. Input the following data into the form below the heading "Make Online Reservation"
+      * Name: Bless
+      * Email Address: shdhdoutlook.com
+      * Date: 2022-08-25
+      * Time: 23:39
+      * Number of Persons: 3
+3. Click "Book Now"      
+
+Expected Result:
+    *The form does not submits and displays and error requesting the user to include an @ sign in the email address*
+
+Outcome:
+    *Website behaved as expected, error message was displayed and the form did not submit.*  
+
+![](docs/incorrect-email.png) 
+
     
-    The website is responsive on the following devices:
+*Scenario Five - Missing Date*
+
+      Steps to test:
+
+1. From the Home page navigate to the Booking page.
+2. Input the following data into the form below the heading "Make Online Reservation"
+      * Name: Bless
+      * Email Address: shdhd@outlook.com
+      * Date: 
+      * Time: 23:39
+      * Number of Persons: 3
+3. Click "Book Now"      
+
+Expected Result:
+    *The form does not submits and displays and error requesting the user to fill out the "Date" field*
+
+Outcome:
+    *Website behaved as expected, error message was displayed and the form did not submit.*   
+
+![](docs/missing-date.png) 
+
+ *Scenario Six - Missing Time*
+
+      Steps to test:
+
+1. From the Home page navigate to the Booking page.
+2. Input the following data into the form below the heading "Make Online Reservation"
+      * Name: Bless
+      * Email Address: shdhd@outlook.com
+      * Date: 2022-08-25
+      * Time: 
+      * Number of Persons: 3
+3. Click "Book Now"      
+
+Expected Result:
+    *The form does not submits and displays and error requesting the user to enter a valid time value*
+
+Outcome:
+    *Website behaved as expected, error message was displayed and the form did not submit.*   
+
+![](docs/missing-time.png) 
+
+
+  
+* Contact Form
+
+The following test scenarios were performed for the Contact Form
+
+*Scenario One - Correct Inputs*
+
+      Steps to test:
+
+1. From the Home page navigate to the *Contact Us* button.
+2. Input the following data into the form below the heading "Contact"
+      * Name: Bless
+      * Email Address: shdhd@outlook.com
+      * Message: Test Message
+3. Click "Send Message"      
+4. Users should be directed to [Code Institute Form Dump](https://formdump.codeinstitute.net/) with a congratulatory message indicating the form was correctly submitted.
+
+Expected Result:
+    *Form submits with no errors and redirects to https://formdump.codeinstitute.net/*
+
+Outcome:
+    *Website behaved as expected with no errors or warnings and redirected to https://formdump.codeinstitute.net/*    
+
+![](docs/correct-contact-message.png)   
+
+
+
+*Scenario Two - Missing Name*
+
+      Steps to test:
+
+1. From the Home page navigate to the *Contact Us* button.
+2. Input the following data into the form below the heading "Contact"
+      * Name: 
+      * Email Address: shdhd@outlook.com
+      * Message: Test Message
+3. Click "Send Message"      
+
+Expected Result:
+    *The form does not submits and displays and error requesting the user to fill out the "Name" field*
+
+Outcome:
+    *Website behaved as expected, error message was displayed and the form did not submit.*     
+
+![](docs/missing-name-contact.png) 
+
+
+*Scenario Three - Missing Email*
+
+      Steps to test:
+
+1. From the Home page navigate to the *Contact Us* button.
+2. Input the following data into the form below the heading "Contact"
+      * Name: Bless
+      * Email Address: 
+      * Message: Test Message
+3. Click "Send Message"      
+
+Expected Result:
+    *The form does not submits and displays and error requesting the user to fill out the "Email" field*
+
+Outcome:
+    *Website behaved as expected, error message was displayed and the form did not submit.*     
+
+![](docs/missing-email-contact.png)   
+
+
+
+*Scenario Four - Incorrect Email*
+
+      Steps to test:
+
+1. From the Home page navigate to the *Contact Us* button.
+2. Input the following data into the form below the heading "Contact"
+      * Name: Bless
+      * Email Address: shdhdoutlook.com
+      * Message: Test Message
+3. Click "Send Message"      
+
+Expected Result:
+    *The form does not submits and displays and error requesting the user to include an @ in email address*
+
+Outcome:
+    *Website behaved as expected, error message was displayed and the form did not submit.*     
+
+![](docs/incorrect-email-contact.png)   
+
+
+
+*Scenario Five - Missing Message*
+
+      Steps to test:
+
+1. From the Home page navigate to the *Contact Us* button.
+2. Input the following data into the form below the heading "Contact"
+      * Name: Bless
+      * Email Address: shdhd@outlook.com
+      * Message: 
+3. Click "Send Message"      
+
+Expected Result:
+    *The form does not submits and displays and error requesting the user to fill out the "Message" field*
+
+Outcome:
+    *Website behaved as expected, error message was displayed and the form did not submit.*     
+
+![](docs/missing-contact-message.png)   
+
 
   ###  Accessibility  
-     To ensure that the website meets the WCAG Web Accessibilty Standards, [Wave](https://wave.webaim.org/) was used to the results of the accessibility testing showed that the following were met:
 
-     * There were no color contrast errors in all the pages.
-     * The heading elements are properly structured to facilitate page navigation for users of assistive technologies.
-     * All form labels are present and associated with a form control.
-     * The HTML lang arrtibute is present to allow screen readers to read the content appropriately.
-     * Images and external links have associated alternative text and aria-labels to be read by screen readers.
+ [Wave](https://wave.webaim.org/) was used to evaluate the accessibility of all pages to ensure the website meets the WCAG Web Accessibilty Standards. The results of the accessibility testing showed that the following were met:
+
+  * There were no color contrast errors in all the pages.
+  * The heading elements are properly structured to facilitate page navigation for users of assistive technologies.
+  * All form labels are present and associated with a form control.
+  * The HTML lang atrribute is present to allow screen readers to read the content appropriately.
+  * Images and external links have associated alternative text and aria-labels to be read by screen readers.
 
      The objective of performing the accessibility testing was to ensure the website is:
 
-     * Perceivable
-     * Operable
-     *Understandable
-     *Robust
+    * Perceivable
+    * Operable
+    * Understandable
+    * Robust
 
-    However, due to time constraints, I was unable to conduct the manual testing for accessibility using a screen reader.
+*However, due to time constraints, I was unable to conduct the manual testing for accessibility using a screen reader.*
 
 
 
@@ -208,8 +490,10 @@ There was no identifiable bugs.
 
 *  Guidance to build a booking page containing Open Times and booking form was from a [Youtube Tutorial video by "brilex 007"](https://www.youtube.com/watch?v=ShpH_1EPox0) .
 
+* The template for my readme.md file was tailored from a readme.md file sourced from https://github.com/Gareth-McGirr/tacos-travels and facilitated by my mentor **Daisy Mc Girr**.
+
 ### Media   
 
 *  The main image and photos in the gallery are from Wikipedia and https://smarthistory.org/imagery-power-benin-bronze-plaques/ .
 
- * The concept for the museum layout originally belong to David Adjaye who is a renowed architect and I got the images of an article written by Alex Greenberger for [Artnews](https://www.artnews.com/gallery/art-news/photos/david-adjaye-emowaa-benin-city-designs-1234576585/5_education-spaces/).  
+ * The concept for the museum layout originally belong to David Adjaye who is a renowed architect and I got the images from an article written by Alex Greenberger for [Artnews](https://www.artnews.com/gallery/art-news/photos/david-adjaye-emowaa-benin-city-designs-1234576585/5_education-spaces/).  
