@@ -15,12 +15,10 @@
 
 The website also aims to serve as a guide to the structural layout of the museum and provide a platform which guests can have a sneak preview of the collection of artefacts on display and schedule a tour of the museum. View the live site [here]( https://deenafe.github.io/edomuseum/)
 
-### **Screenshots**
 
-![](docs/screen-imac.png)   ![](docs/screen-macbook-air.png)     
-![](docs/screen-ipad-air.png)  ![](docs/screen-iphonex.png)
+![](docs/mockup-screenshot.png)  
 
-
+***
 ### **Features**
 
 ### *Navigation*  
@@ -430,7 +428,19 @@ Outcome:
     * Understandable
     * Robust
 
-*However, due to time constraints, I was unable to conduct the manual testing for accessibility using a screen reader.*
+*However, due to time constraints, I was unable to conduct the manual testing for accessibility using a 
+screen reader.*
+
+
+###  Lighthouse Testing
+
+![](docs/lighthouse-index.png) 
+
+![](docs/lighthouse-collection.png)
+
+![](docs/lighthouse-bookings.png)
+
+![](docs/lighthouse-contact.png) 
 
 
 
