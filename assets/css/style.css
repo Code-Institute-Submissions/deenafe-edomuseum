@@ -70,6 +70,10 @@ a {
 
 /* Main image */
 
+.main-image {
+    width: 100%;
+}
+
 #caption-text {
     color: #414111;
     text-align: center;
@@ -345,7 +349,7 @@ form label {
         padding: 0;
     }
 
-    .nav-header h2 {
+    .nav-header h1 {
         padding: 0;
     }
 

@@ -1,15 +1,28 @@
 # EMOWAA
 
-EMOWAA is an illustrative website about a museum that houses a collection of artefacts and imagery (primarily Bronze and copper carvings from the ancient Benin Kingdom). Although, the museum only exists presently as an idea, espoused by David Adjaye, this website aims to provide insight on a probable collection of artefacts to be housed in the hypotehtical museum.
+## Table of Contents
+1. [General Information](#General-information)
+2. [Technologies](#Technologies)
+3. [Testing](#Testing)
+4. [Depolyment](#Depolyment)
+5. [Credits](#Credits)
 
-The website aims to serve as a guide to the structural layout of the museum and provide a platform which guests can have a sneak preview of the collection of artefacts on display and schedule a tour of the museum. View the live site [here](https://deenafe.github.io/artgallery/)
+
+
+
+**EMOWAA** is an illustrative website about a museum that houses a collection of artefacts and imagery (primarily Bronze and copper carvings from the ancient Benin Kingdom). Although, the museum only exists presently as an idea/proposal, this website aims to provide insight on a probable collection of artefacts to be housed in the hypotehtical museum.
+
+The website also aims to serve as a guide to the structural layout of the museum and provide a platform which guests can have a sneak preview of the collection of artefacts on display and schedule a tour of the museum. View the live site [here](https://deenafe.github.io/artgallery/)
+
+![](docs/screen-imac.png)   ![](docs/screen-macbook-air.png)     
+![](docs/screen-ipad-air.png)  ![](docs/screen-iphonex.png)
 
 
 ## Features
 
 ### Navigation  
 
- The navigation menu is consistent in all 3 pages of the website and links to the Home, Collection, Bookings page and the Logo which directs to the Home page.
+ **.**The navigation menu is consistent in all 3 pages of the website and links to the Home, Collection, Bookings page and the Logo which directs to the Home page.
  This will allow users to easily navigate across the pages without having to use the "back" button
 
 ### Landing Page 
