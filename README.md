@@ -411,6 +411,12 @@ Outcome:
 ![](docs/missing-contact-message.png)   
 
 
+### Testing Social Media Icons / Links
+
+Testing was performed on the Font Awesome Social Media icons in the footer to ensure that each one opened in a new tab.
+
+Each item opened a new tab when clicked as expected and correct hover opacity effect was present.
+
   ###  Accessibility  
 
  [Wave](https://wave.webaim.org/) was used to evaluate the accessibility of all pages to ensure the website meets the WCAG Web Accessibilty Standards. The results of the accessibility testing showed that the following were met:
@@ -449,6 +455,7 @@ screen reader.*
 *HTML*
 * No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
 
+
 ![](docs/capture-index.png)
 ![](docs/capture-collection.png)
 ![](docs/capture-bookings.png)
@@ -462,8 +469,18 @@ screen reader.*
 ![](docs/capture-index.png)
 
 
+## Bugs
+
+### Identified Bugs
+
+* I had issues with the responsiveness of the nav links on the left side of the page and the Logo in the center of the page. I initially used floats but the nav links and log become distorted when the screen size scales down below 800px.
+
+* To resolve the bug, I used flex for both the nav-header container and the nav-links to the left. I also had to introduce another link (Contact Us) in the nav-header container to the right of the page and use the justify center:space-between property to create even spacing between the 3 elements and this resolved the distortion of the Logo's position.
+
+I also had to resize the images on the Museum layout section using paint and give them a fixed height to get the images to fit into the container.
+
 ### Unfixed Bugs   
-There was no identifiable bugs.
+There was no identifiable unfixed bugs.
 
 ***
 ## Deployment 
@@ -496,11 +513,11 @@ There was no identifiable bugs.
 
 *  The idea for the creation of the museum is from the EMOWAA Trust headed by Phillip Ihenacho.
   
-*  Guidance to create a responsive gallery using flexbox was from a [Youtube Tutorial video by "Cem Eygi Media"](https://www.youtube.com/watch?v=QmZNFnqwu74).
+*  The code to create a responsive gallery using flexbox was from a [Youtube Tutorial video by "Cem Eygi Media"](https://www.youtube.com/watch?v=QmZNFnqwu74).
 
-*  Guidance to build a booking page containing Open Times and booking form was from a [Youtube Tutorial video by "brilex 007"](https://www.youtube.com/watch?v=ShpH_1EPox0) .
+*  The code to create a booking page containing Open Times and booking form was from a [Youtube Tutorial video by "brilex 007"](https://www.youtube.com/watch?v=ShpH_1EPox0).
 
-* The template for my readme.md file was tailored from a readme.md file sourced from https://github.com/Gareth-McGirr/tacos-travels and facilitated by my mentor **Daisy Mc Girr**.
+* The template for my readme.md file was sourced from https://github.com/Gareth-McGirr/tacos-travels and facilitated by my mentor **Daisy Mc Girr**.
 
 ### Media   
 

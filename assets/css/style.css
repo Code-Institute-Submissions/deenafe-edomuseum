@@ -96,7 +96,7 @@ a {
 }
 
 .flex-info {
-    border: 1px dotted green;
+    border: 1px dotted #2B4729;
     flex-basis: 40%;
     margin-bottom: 15px;
     padding: 10px;
@@ -262,8 +262,7 @@ label {
 
 .contact-section form {
     width: 60%;
-    margin: 50px auto;
-    padding: 55px 30px;
+    margin: 0 auto;
 }
 
 .contact-title h2 {
