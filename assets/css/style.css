@@ -260,6 +260,8 @@ label {
 
 /* Contact form */
 
+/* Most of the css code for the Contact form was borrowed from a Youtbue tutorial by David G Tech "https://www.youtube.com/watch?v=p_QjYcQV1Bc" */
+
 .contact-section form {
     width: 60%;
     margin: 0 auto;
